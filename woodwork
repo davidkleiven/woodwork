@@ -2,3 +2,4 @@
 FULL_PATH=$(realpath $0)
 DIR=$(dirname $FULL_PATH)
 java -jar ${DIR}/woodwork.jar "$@"
+
